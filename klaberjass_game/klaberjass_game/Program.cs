@@ -6,6 +6,14 @@ using System.Threading.Tasks;
 
 namespace klaberjass_game
 {
+    public enum Cardtype
+    {
+        Diamonds,
+        Spades,
+        Clubs,
+        Hearts
+    }
+
     class Program
     {
         static void Main(string[] args)
